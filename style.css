@@ -7,11 +7,17 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.centerr {
+.centerr{
     display: block;
     margin-left: auto;
     margin-right: auto;
-  
+}
+.imgr {
+
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 .bodys
 {
@@ -25,7 +31,7 @@ min-height: 100vh;
 .containerr{
     position: relative;
     width: 100%;
-    max-width: 1400px;
+    max-width: 100px;
     min-height: 100px;
     background: #fff;
     margin: 50px;
@@ -46,4 +52,22 @@ min-height: 100vh;
     background: #fff;
     padding: 40px;
 }
-  
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255,0.2);
+
+}
+.profileText h2{
+    color: #fff;
+    font-size: 5mm;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4mm;
+
+}
