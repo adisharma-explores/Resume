@@ -31,19 +31,19 @@ min-height: 100vh;
 .containerr{
     position: relative;
     width: 100%;
-    max-width: 100px;
+    max-width: 1400px;
     min-height: 100px;
     background: #fff;
     margin: 50px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 5fr;
     box-shadow: 0 35px 35px rgba(0,0 ,0,0.1);
     
 }
 .left_Side
 {
     position: relative;
-    background: #003147;
+    background: #e6e6e6;
     padding: 40px;
 }
 .right_Side
@@ -61,13 +61,17 @@ min-height: 100vh;
     border-bottom: 1px solid rgba(255, 255, 255,0.2);
 
 }
-.profileText h2{
-    color: #fff;
-    font-size: 5mm;
+.profileText1 h3{
+    color: #538cc6;
+    font-size: 6mm;
     margin-top: 20px;
     text-transform: uppercase;
-    text-align: center;
+    
     font-weight: 600;
     line-height: 1.4mm;
 
 }
+address { 
+    display: block;
+    font-style: italic;
+  }
