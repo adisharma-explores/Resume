@@ -38,6 +38,11 @@ min-height: 100vh;
  
     text-align: right;
 }
+.wid{
+    max-width: 1400px;
+    min-width: 1400px;
+    min-height: 100px;
+}
 .containerr{
     position: relative;
     width: 100%;
